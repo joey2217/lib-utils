@@ -7,6 +7,15 @@
   "module": "dist/lib-utils.es.js",
   "unpkg": "dist/lib-utils.umd.js",
   "jsdelivr": "dist/lib-utils.umd.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/lib-utils.es.js",
+      "require": "./dist/lib-utils.umd.js"
+    }
+  },
   "scripts": {
     "build": "tsc && vite build",
     "test": "jest",
