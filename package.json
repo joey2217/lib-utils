@@ -2,15 +2,11 @@
   "name": "lib-utils",
   "version": "0.0.2",
   "description": "lib-utils",
-  "main": "lib/index.ts",
+  "main": "dist/lib-utils.umd.js",
   "types": "lib/index.ts",
   "module": "dist/lib-utils.es.js",
   "unpkg": "dist/lib-utils.umd.js",
   "jsdelivr": "dist/lib-utils.umd.js",
-  "files": [
-    "dist",
-    "lib"
-  ],
   "scripts": {
     "build": "tsc && vite build",
     "test": "jest",
